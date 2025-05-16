@@ -60,11 +60,15 @@ This repository contains three separate machine learning tasks developed during 
    git clone https://github.com/yourusername/internship-project.git
    cd internship-project
 2.Create and activate a virtual environment (optional but recommended):
+ 
     python -m venv venv
     source venv/bin/activate  # Linux/Mac
-    venv\Scripts\activate     # Windows
+    venv\Scripts\activate     # Windows  
 3.Install dependencies for each task by navigating into the task folder and running:
-    pip install -r requirements.txt
+  
+       pip install -r requirements.txt
+
+
 How to Run Each Task
 Task 1 - Data Analytics Dashboard
 Open and run task1_analytics/task1_analytics.ipynb in Jupyter Notebook for the training and analysis.
@@ -73,7 +77,10 @@ Run dashboard.py to launch the analytics dashboard.
 
 Task 2 - Extractive Text Summarizer
 Run app.py using Streamlit:
-streamlit run task2_summarizer/app.py
+   
+   streamlit run task2_summarizer/app.py
+
+      
 The chatbot uses a custom vector database (ChromaDB) and semantic search to answer queries dynamically.
 
 Add knowledge through the sidebar to expand the chatbot’s responses.
