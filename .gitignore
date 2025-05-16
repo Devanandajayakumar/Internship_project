@@ -1,0 +1,13 @@
+# Ignore Conda virtual environment
+env/
+*.pyc
+__pycache__/
+
+# Ignore environment variables
+.env
+
+# Ignore Jupyter Notebook checkpoints (if using)
+.ipynb_checkpoints/
+
+# Ignore Streamlit cache
+.streamlit/
